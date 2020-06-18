@@ -30,14 +30,14 @@ def user_delete(request):
     request.user.delete()
     return HttpResponse(status=200)
 
-@api_view(['GET'])
+@api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def follow(request, user_pk):
     User = get_user_model()
     user = get_object_or_404(User, pk=user_pk)
     if user != request.user:
-        if user.followers.filter(pk=request.user.pk).exist():
+        if user.followers.filter(pk=request.user.pk).exists():
             user.followers.remove(request.user)
         else:
             user.followers.add(request.user)
-    return HttpResponse('ㅎ.ㅎ')
+    return HttpResponse(status=200)

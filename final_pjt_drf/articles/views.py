@@ -74,7 +74,7 @@ def article_delete(request, article_pk):
     article = get_object_or_404(Article, pk=article_pk)
     if request.user == article.user:
         article.delete()
-        return HttpResponse('g.g')
+        return HttpResponse(status=200)
     else:
         return HttpResponseForbidden()
 
