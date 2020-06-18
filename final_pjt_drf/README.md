@@ -14,8 +14,13 @@
 
 |  NUM  | PATH                        | METHOD                                      | 기능            | 비고                   |
 | :---: | --------------------------- | ------------------------------------------- | --------------- | ---------------------- |
+<<<<<<< HEAD
 | **1** | /rest-auth/signup/          | POST{: .gitlab-orange}                      | 회원가입        | signupData 必          |
 | **2** | /rest-auth/login/           | **POST**{: style="color: orange"}           | 로그인          | loginData 必           |
+=======
+| **1** | /rest-auth/signup/          | POST {: .gitlab-orange}                     | 회원가입        | signupData 必          |
+| **2** | /rest-auth/login/           | <font style="color: orange">**POST**</font> | 로그인          | loginData 必           |
+>>>>>>> 689b25847854a7c1a9c50b910de60d189675fb18
 | **3** | /rest-auth/logout/          | <font style="color: orange">**POST**</font> | 로그아웃        | token 必               |
 | **4** | /accounts/mypage/           | <font style="color: green">**GET**</font>   | 마이페이지      | token 必               |
 | **5** | /rest-auth/password/change/ | <font style="color: orange">**POST**</font> | 비밀번호 변경   | token 必 changeData 必 |
