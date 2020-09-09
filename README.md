@@ -6,7 +6,7 @@
 
 
 
-* **DRF Rest API 서버에 대한 문서는 final_pjt_drf 내부에 있습니다.**
+* **DRF Rest API 서버에 대한 문서는 [final_pjt_drf 내부](https://github.com/YongjoonSeo/ssafy_final_pjt/tree/master/final_pjt_drf)에 있습니다.**
 
 
 
@@ -112,4 +112,4 @@
 ### 4. 배포 서버 URL
 
 - DRF Rest API Server: https://serene-garden-95240.herokuapp.com (Heroku)
-- Vue.js: gotcha-ssafy304.xyz (Netlify)
+- Vue.js: https://gotcha-ssafy304.xyz (Netlify)
