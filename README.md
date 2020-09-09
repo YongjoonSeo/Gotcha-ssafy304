@@ -96,7 +96,7 @@
 
 ### 3. 데이터베이스 모델링(ERD)
 
-![final pjt ERD](./final pjt ERD.jpeg)
+![final pjt ERD](https://user-images.githubusercontent.com/47657852/92550644-f35a0280-f296-11ea-80e5-681997929d6f.jpeg)
 
 - 한 영화를 좋아하는 유저가 많을 수 있고, 한 유저가 많은 영화를 좋아할 수도 있으니 Movie 모델의 like 필드를 통해 User와 M:N관계로 연결된다.
 - 영화에 따른 게시글이 있을 수도 있고 없을 수도 있으며, 있다면 영화와 게시글이 1:N관계로 연결된다.
